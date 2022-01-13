@@ -7,13 +7,24 @@
     <title>Teste de Fundo</title>
     <style>
         body {
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: fixed;    Serve para a imagem de fundo ficar estática
+            */
+            height: 100vh;
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover;
         }
+        /*
+        Shorthand - Background
+            color > image > position > repeat > [size] > attachment
+
+          *size existe no documento como shorthand, porém, ainda não está em funcionamento.  
+        */
+
         main {
             background-color: white;
             max-width: 400px;
