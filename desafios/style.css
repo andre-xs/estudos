@@ -1,0 +1,24 @@
+@font-face {
+    font-family: PassionOne-Regular;
+    src: url('fontes/PassionOne-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header {
+    height: 100%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: PassionOne-Regular;
+    font-size: 8em;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 0 0 30px;
+}
