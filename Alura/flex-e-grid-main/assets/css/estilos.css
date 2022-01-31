@@ -40,3 +40,13 @@ body {
     content: "\e906";
     font-size: 24px;
 }
+
+.cabecalho__logo {
+    width: 40px;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
